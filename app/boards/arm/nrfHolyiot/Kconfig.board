@@ -1,0 +1,8 @@
+# nrfHolyiot board configuration
+
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_NRFHOLYIOT
+    bool "nrfHolyiot"
+    depends on SOC_NRF52840_QIAA
